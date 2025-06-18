@@ -1,0 +1,47 @@
+ body {
+            font-family: Arial, sans-serif;
+            background: #181818;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .d{
+          text-align: center;
+
+          display: absolute;
+          background-color: #fff;
+          color: #e50914;
+        }
+        .container {
+            margin: 100px auto;
+            background: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+        }
+        .container h2{
+          text-align: center;
+          position: sticky;
+          background-color: #e50914; 
+          display: block;
+         
+        }
+        .movie-img {
+            width: 100%;
+            display: block;
+            height: 320px;
+            object-fit: cover;
+        }
+        .movie-details {
+            padding: 20px;
+        }
+        .movie-details h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.3rem;
+            color: #e50914;
+        }
+        .movie-details p {
+            margin: 0;
+            line-height: 1.6;
+            color: #ccc;
+        }
