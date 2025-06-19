@@ -1,3 +1,7 @@
+body {
+    background-color: #242424;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 #game{
     justify-content: center;
     margin-top: 200px;
@@ -7,6 +11,8 @@ h2{
     text-align: center;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    ;
 }
 button{
     background-color: red;
@@ -15,15 +21,43 @@ button{
     border-radius: 20px;
     border: none;
     color: white;
-}
-button{
     margin-bottom: 20px;
-       padding:15px 20px;
+    padding:15px 20px;
+}
+
+#game button:hover{
+  color: red;
+  background-color: white;
+  transform: scale(1.2);
+  border: 2px solid red;
 }
 
 #result ,h1{
     color: grey;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
+    font-weight: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#result{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 26, 26);
+    font-weight: 20px;
+}
+@media screen and (max-width: 600px) {
+    #game{
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    button{
+        font-size: 20px;
+        padding:10px 15px;
+    }
+    #result, h1{
+        font-size: 30px;
+    }
 }
