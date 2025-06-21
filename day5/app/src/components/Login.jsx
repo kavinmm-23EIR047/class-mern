@@ -1,5 +1,6 @@
 import "./style/Login.css"
 import Img from "../assets/react.svg"
+import Heading from "./Heading"
 function Login(){
     return (
         <>
