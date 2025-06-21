@@ -78,3 +78,6 @@ let img1 = document.querySelector("img");
     },5000);
 }
 
+setTimeout(()=>{
+    dom.removeAttribute(img1);
+},15000)
